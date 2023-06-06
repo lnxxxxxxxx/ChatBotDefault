@@ -25,10 +25,13 @@
 ## 🔧 Usage
   
   1. Open Postman, use the endpoints `localhost:5050/chat` with method POST.
-    - You can enter data and send it as raw json. For example
+   
+     You can enter data and send it as raw json. For example
+       
        `{
             "message": "hola"
         }`
+        
   2. You can set any default answer and question from the code, it is scalable.
      
 
