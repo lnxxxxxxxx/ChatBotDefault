@@ -10,7 +10,7 @@ class Chatbot:
              "Informacion sobre deuda vigente",
              "Comunicarme con un asesor"
             ]
-        if message.lower() == "opciones" or message.lower() == "hola":
+        if message.lower() == "opciones" or message.lower() == "hola" or message.lower() == "si" or message.lower() == "sip" or message.lower() == "yes" or message.lower() == "y" or message.lower() == "s" or message.lower() == "dale":
             welcome_message = "Bienvenido, elija una opción para ayudarlo"
             response = [welcome_message] + options
         else:
