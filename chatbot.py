@@ -34,7 +34,7 @@ chatbot = Chatbot()
 
 # Crear una aplicación Flask
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": ["http://localhost:3000", "https://chatbot-cat-ia.vercel.app/", "https://chat-mfp768m62-lnxxxxxxxx.vercel.app/"]}})
+CORS(app, resources={r"/*": {"origins": ["http://localhost:3000", "https://chatbot-cat-ia.vercel.app", "https://chat-mfp768m62-lnxxxxxxxx.vercel.app"]}})
 
 # Ruta para recibir y responder a las solicitudes POST
 @app.route('/chat', methods=['POST'])
